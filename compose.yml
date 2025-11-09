@@ -80,7 +80,7 @@ services:
 
   # Evolution API
   evolution:
-    image: atendai/evolution-api:v2.1.1
+    image: evoapicloud/evolution-api:latest
     restart: always
     labels:
       - traefik.enable=true
